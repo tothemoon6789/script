@@ -1,19 +1,10 @@
 const httpArray = [];
-document.querySelectorAll('a[href^="/dns/"]').forEach((item)=>{
-    const content = item.innerHTML;
-    const dotVn = content.search(".vn");
-    
-    
-   
-    if(dotVn === -1){
-     httpArray.push(content); 
-    } else {
-     
-        console.log(".vn",dotVn);
-    console.log(".com.vn",dotVn);
-    console.log(".net.vn",dotVn);
+document.querySelector('#dns').querySelectorAll('tr td:nth-child(3) a').forEach((item)=>{
+    const content = item.textContent;
+    const search = content.search(".vn");
+    if (search === -1) {
+    httpArray.push(content)
     }
     
 })
-  
 console.log(httpArray)
