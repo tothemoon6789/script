@@ -1,8 +1,5 @@
 //https://www.whatismyip.com/dns-lookup/const ipArray = [];
-const link = [
-    "https://guihangdimysieutoc.com/",
-    "http://www.vanchuyenngaydem.com/",
-    ];
+const link = ['www.haprotravel.com', 'www.nuocmy.net', 'www.onbooking.com', 'www.diaocdatviet.com.vn', 'www.cattuonbinhduong.com', 'www.fiditour.com', 'www.dulichkhampha.vn', 'www.saigontourist-stt.com', 'www.anbinhtour.com', 'www.dichvugiare.com', 'www.thdtravel.com', 'www.dulichvietnam247.com', 'www.diamondtour.vn', 'www.vione.vn', 'www.dulichsaigontour.vn', 'www.hailongtravel.com', 'www.focusvietnam.com', 'www.startourist.com.vn', 'www.khachsan24.vn'];
 for (let index = 0; index < link.length; index++) {
    
 
