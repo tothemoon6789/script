@@ -1,7 +1,7 @@
 //https://www.whatismyip.com/dns-lookup
 const ipArray = [];
 const link = [
-    "http://www.haprotravel.com/",
+   
     "http://www.nuocmy.net/",
     "http://www.onbooking.com/",
     "http://www.diaocdatviet.com.vn/",
