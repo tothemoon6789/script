@@ -1,15 +1,33 @@
-//https://www.whatismyip.com/dns-lookup/const ipArray = [];
-const link = ['www.haprotravel.com', 'www.nuocmy.net', 'www.onbooking.com', 'www.diaocdatviet.com.vn', 'www.cattuonbinhduong.com', 'www.fiditour.com', 'www.dulichkhampha.vn', 'www.saigontourist-stt.com', 'www.anbinhtour.com', 'www.dichvugiare.com', 'www.thdtravel.com', 'www.dulichvietnam247.com', 'www.diamondtour.vn', 'www.vione.vn', 'www.dulichsaigontour.vn', 'www.hailongtravel.com', 'www.focusvietnam.com', 'www.startourist.com.vn', 'www.khachsan24.vn'];
-for (let index = 0; index < link.length; index++) {
-   
+//https://www.whatismyip.com/dns-lookup
+const ipArray = [];
+const link = [
+    "http://www.haprotravel.com/",
+    "http://www.nuocmy.net/",
+    "http://www.onbooking.com/",
+    "http://www.diaocdatviet.com.vn/",
+    "http://www.cattuonbinhduong.com/",
+    "http://www.fiditour.com/",
+    "http://www.dulichkhampha.vn/",
+    "http://www.saigontourist-stt.com/",
+    "http://www.anbinhtour.com/",
+    "http://www.dichvugiare.com/",
+    "http://www.thdtravel.com/",
+    "http://www.dulichvietnam247.com/",
+    "http://www.diamondtour.vn/",
+    "http://www.vione.vn/",
+    "http://www.dulichsaigontour.vn/",
+    "http://www.hailongtravel.com/",
+    "http://www.focusvietnam.com/",
+    "http://www.startourist.com.vn/",
+    "http://www.khachsan24.vn/"
+]
 
-}
 let count = -1;
 function hitMe() {
     count++
     if (count<link.length) {
        setTimeout(()=>{
-           
+           console.log(count)
          document.querySelector("#tool-dns-lookup > form > div > input[type=url]").value = link[count];
 document.querySelector("#tool-run").click();
            console.log(111)
