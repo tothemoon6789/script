@@ -2,8 +2,6 @@
 const ipArray = [];
 const link = [
    
-    "http://www.nuocmy.net/",
-    "http://www.onbooking.com/",
     "http://www.diaocdatviet.com.vn/",
     "http://www.cattuonbinhduong.com/",
     "http://www.fiditour.com/",
