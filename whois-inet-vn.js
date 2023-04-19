@@ -1,4 +1,20 @@
-const domain = ["giamtochopso.com", "godgear.net", "gogovantai.com"];
+const domain = [
+    "banhchungngon.com",
+"banhchungngon.net",
+"baotridien.com",
+"batdongsan-nova.com",
+"benhvienquany7b.com",
+"bepthan.com",
+"biendongseafood.com",
+"bmvlog.com",
+"caisbridal.com",
+"chienthao.com",
+"chukysohddt.com",
+"codienlanhqtech.com",
+"comrainbow.com",
+"cuahangtra.com",
+"cuanhomphanrang.com",
+];
 
 let counter = 0;
 const result = [];
