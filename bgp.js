@@ -3,7 +3,10 @@ document.querySelector('#dns').querySelectorAll('tr td:nth-child(3) a').forEach(
     const content = item.textContent;
     const search = content.search(".vn");
     if (search === -1) {
-    httpArray.push(content)
+        if(content.search(".com")!== -1 || content.search(".net") !==-1){
+    httpArray.push(content)        
+        }
+    
     }
     
 })
